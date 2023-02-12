@@ -3,7 +3,7 @@
 
 Console.WriteLine("Enter any number");
 int N = Math.Abs(Convert.ToInt32(Console.ReadLine()));
-for (int i = 1; i <= N; i++)
+for (int i = 1; i <= N; i = i + 2)
 {
     Console.WriteLine(i);
 }
